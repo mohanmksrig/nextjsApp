@@ -17,36 +17,44 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  padding: 1rem;
+  background-color: #f0f0f0;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
- }
- 
- .header-links {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.header-links {
   list-style: none;
   padding: 0;
   display: flex;
- }
- 
- .header-links li {
+}
+
+.header-links li {
   margin-right: 30px;
- }
- 
- .header-links a {
+}
+
+.header-links a {
   text-decoration: none;
   color: black;
   position: relative;
   padding-right: 25px;
- }
- 
- .header-links img {
+}
+
+.header-links img {
   position: absolute;
   top: 19%;
   transform: translateY(-50%);
   right: 0px;
- }
+}
+
+.card {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding: 20px;
+}
